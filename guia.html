@@ -1,7 +1,12 @@
-<!--Esto es un comenario en html-->
+<!--Esto es un comentario en html-->
+<!--
+Las etiqeutas en html pueden llevar atributos,como lo son id y class
+El, atributo id deberia tener un valor unico, el atribuito class si puede 
+tenr todos los valores necesarios. (Sin exagerar)
+-->
 
 <!--Esto es una lista desordenada, NO enumera los items-->
-<ul>
+<ul id="navegacion"class="clase clase1 clase2">
 	<li>Un elemnto</li>
 	<li>Segundo</li>
 	<li>Tercer</li>
@@ -9,7 +14,7 @@
 </ul>
 
 <!--Esta es una lista ordenada enumera los items-->
-<ol>
+<ol id= "menu" class="clase clase2">
 	<li>Un elemento</li>
 	<li>segundo</li>
 	<li>tercero</li>
@@ -19,10 +24,10 @@
 <!--Esta etiqueta permite agregar textos con caracteres especiales-->
 <meta charset="utf-8">
 
-<!--esta etiqueta permite agrear menlaces (alhacer clic lleva aotrapagina)-->
-< a hrf="www.google.com">haga clic para ir a google.<a>
+<!--esta etiqueta permite agregar menlaces (alhacer clic lleva aotrapagina)-->
+<a hrf="www.google.com">haga clic para ir a google.<a>
 
-<!--esta etioqueta permite agregar un parrafo de texrto en el html-->
+<!--esta etiqeutaqueta permite agregar un parrafo de texrto en el html-->
 <p> todo el texto aqui e3scrito estara aniddo en la etiqeuta,la cual al final agregara un espacio entre otros contenidos.</p>
 
 <!--esta etiqueta agregar texcto en el html-->
@@ -78,5 +83,22 @@
 <!--esta etiqueta segmentara el contenido dentro del sitio web, se debe tener en cuenta que esta etiqeuta no tiuene mucha relevancia, en ella podrian ir cosas que no tienen tanta cosnsitencis con elk resto del contenido del archivo-->
 <aside></aside>
 
+<!-- Esta etiqueta permite agregar texto desde el navegador web.
+La etiqueta input tiene algunos atributos unicos como lo son type y value.
+Algunos de los valores que podemos usar en type son> text, password, range, time
+-->
 
+<input type="text" value="correo@gmail.com">
 
+<!-- ECuanedo agregamos ela tributo placeholder, el campo tendra un indicador 
+en texto de lo que deberia ir escrito en el , como jun email, un nombre o una 
+contrasena
+-->
+
+<input type="text" placeholder="nombre completo">
+
+<!-- Esta etiqueta permite agregar y visualizar en el navegador un campo
+de texto ams extenso para agregar parrafos, se puede usar para recibir mensajes, o agregar una dexcripcion de un producto.
+-->
+
+<textarea name="description" id= "area" cols="30" rows="10"></textarea>
